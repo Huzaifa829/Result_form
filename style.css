@@ -1,0 +1,7 @@
+p{
+    margin: 5px 0px;
+}
+.ErrorMsg{
+    visibility: hidden;
+    color: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HA_Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Instant Result and Grade Generator</h1>
+    <form id="myForm">
+    <div>
+        <input required id="EngMrk" placeholder="Enter Your English Mark" type="number">
+        <p class="ErrorMsg" id="EngError">Cannot enter a number greater than 100 or less than 0.</p>
+        <input required id="mathMrk" placeholder="Enter Your Maths Mark" type="number">
+        <p class="ErrorMsg" id="mathError">Cannot enter a number greater than 100 or less than 0.</p>
+        <input required id="urduMrk" placeholder="Enter Your Urdu Mark" type="number">
+        <p class="ErrorMsg" id="UrduError">Cannot enter a number greater than 100 or less than 0.</p>
+        <input required id="phyMrk" placeholder="Enter Your Physics Mark" type="number">
+        <p class="ErrorMsg" id="phyError">Cannot enter a number greater than 100 or less than 0.</p>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+    <p>Total marks : 400</p>
+    <div>
+        <h3>Persentage</h3>
+        <p id="totalpertntage"></p>
+    </div>
+    <div>
+        <h3>Grade</h3>
+        <p id="grade"></p>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
